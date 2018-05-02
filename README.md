@@ -33,7 +33,7 @@
           <Button
             color={'#bdc3c7'}
             onPress={this._goToYosemite}
-            title="Click To Open Maps 🗺" />
+            name="Click To Open Maps 🗺" />
         );
       }
     }
@@ -55,11 +55,11 @@ const openFacebookHQ = createOpenLink(facebookHQ);
           <Button
             color={'#bdc3c7'}
             onPress={openYosemite}
-            title="Go to Yosemite 🏔" />
+            name="Go to Yosemite 🏔" />
           <Button
             color={'#bdc3c7'}
             onPress={openFacebookHQ}
-            title="Go to Facebook HQ 🕋" />
+            name="Go to Facebook HQ 🕋" />
         );
 ```
 
